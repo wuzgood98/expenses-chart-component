@@ -21,8 +21,12 @@ module.exports = {
       },
       keyframes: {
         grow: {
-          "0%": { height: "0" },
-          "100%": { maxHeight: "max-content" },
+          from: {
+            maxHeight: "0",
+          },
+          to: {
+            maxHeight: "100%",
+          },
         },
       },
     },
